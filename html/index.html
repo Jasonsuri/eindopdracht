@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="../css/styling.css" rel="stylesheet" type="text/css">
+    <link href="../font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-------- HEADER & NAV ------------>
+<header>
+    <nav>
+        <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> HOME</a>
+        <a href="aboutme.html"><i class="fa fa-address-card" aria-hidden="true"></i> OVER MIJ</a>
+        <a href="educatie.html"><i class="fa fa-university" aria-hidden="true"></i> EDUCATIE</a>
+        <a href="gallerij.html"><i class="fa fa-picture-o" aria-hidden="true"></i> GALLERIJ</a>
+        <a href="contact.html"><i class="fa fa-comment" aria-hidden="true"></i> CONTACT</a>
+        <a href="../cv.docx"><i class="fa fa-cloud-download" aria-hidden="true"></i> CV</a>
+    </nav>
+</header>
+<!-------- MAIN ------------>
+<main>
+    <div class="inhoudIndex">
+        <img alt="fotos/ik" src="../fotos/Ik.jpg">
+        <h1 id="groeten"></h1>
+        <h2>Mijn naam is Jason!</h2>
+        <script>
+            function myFunction() {
+                var greeting;
+                var time = new Date().getHours();
+                if (time < 12) {
+                    greeting = "Goedemorgen,";
+                } else if (time < 18) {
+                    greeting = "Goedemiddag,";
+                } else {
+                    greeting = "Goedenavond,";
+                }
+                document.getElementById("groeten").innerHTML = greeting;
+            }
+
+            myFunction();
+        </script>
+
+
+        <p>Hallo iedereen! Welkom op mijn website. Ik ben Jason Mohab-Ali. Ik ben 17 jaar oud en woon in Noord-Brabant
+            in Steenbergen.</p>
+        <p>Ik zit op het Techniek College Rotterdam en ben momenteel bezig met de opleiding Applicatie- en media
+            ontwikkeling.</p>
+        <a class="cv" href="../cv.docx" download><i class="fa fa-download" aria-hidden="true"></i>CURRICULUM VITAE</a>
+    </div>
+</main>
+<!-------- ADRESGEGEVENS EN FOOTER------------>
+<footer>
+    <div class="adresgegevens adresgegevens1">
+        <ul>
+            <li><h2>Gegevens</h2></li>
+            <li>Nederlands</li>
+            <li>Steenbergen</li>
+            <li>Oude Saag 11</li>
+        </ul>
+    </div>
+    <div class="adresgegevens adresgegevens2">
+        <ul>
+            <li><h2>Social Media</h2></li>
+            <li><a href="http://www.instagram.com/jasonsuri"><i class="fa fa-instagram" aria-hidden="true"></i>
+                Instagram</a></li>
+            <li><a href="https://www.facebook.com/jason.mohabali"><i class="fa fa-facebook-official"
+                                                                     aria-hidden="true"></i> Facebook</a></li>
+            <li><a href="https://www.snapchat.com/"><i class="fa fa-snapchat-square" aria-hidden="true"></i>
+                Snapchat</a></li>
+        </ul>
+    </div>
+    <div class="adresgegevens adresgegevens3">
+        <ul>
+            <li><h2>Over</h2></li>
+            <li>Jason Mohab-Ali</li>
+            <li>© Copyright</li>
+            <li>Alle rechten voorbehouden.</li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,633 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    background-color: #f9f9f9;
+}
+
+main {
+    margin-bottom: 9%;
+}
+
+/* ------------------------------------------------------------------ HEADER & NAV ---------------------------------------------------- */
+header {
+    width: 100%;
+    height: 10%;
+    background-color: #1abc9c;
+    border-color: #16a085;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+
+}
+
+nav {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2% 3.5%;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+nav a:link {
+    color: white;
+}
+
+nav a:hover {
+    color: black;
+
+}
+
+/* -------------------------------------------------------------------  INDEX ---------------------------------------------- */
+.inhoudIndex {
+    height: 40%;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    top: 4%;
+    bottom: 40%;
+    margin: 0 auto;
+}
+
+.inhoudIndex h1 {
+    font-size: 2rem;
+    position: relative;
+    top: 1.9rem;
+    padding-bottom: 10%;
+    color: #333333;
+    text-align: center;
+    left: 0;
+
+}
+
+.inhoudIndex h2 {
+    position: relative;
+    top: -1.3rem;
+    color: #333;
+}
+
+.inhoudIndex p {
+    font-size: 1.2rem;
+    color: #555;
+    padding-bottom: 10%;
+}
+
+.inhoudIndex img {
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    top: 2rem;
+}
+
+/* ----------------------------------------------------------------------- CV BUTTON IN DE INDEX!!--------------------------------------- */
+.cv {
+    height: 30%;
+    width: 30%;
+    background-color: white;
+    border: black solid;
+    padding: 5%;
+    color: black;
+    transition-duration: 0.4s;
+    border-radius: 20px;
+
+}
+
+.cv:link {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.cv:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ---------------------------------------------------------------- FOOTER & ADRESGEGEVENS -----------------------------------------------*/
+footer {
+    height: 25%;
+    width: 100%;
+    background-color: #333333;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+/* CONTAINER GEGEVENS */
+
+.adresgegevens1 {
+    flex: 1;
+}
+
+.adresgegevens2 {
+    flex: 1;
+}
+
+.adresgegevens2 a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.adresgegevens2 a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.adresgegevens3 {
+    flex: 1;
+}
+
+.adresgegevens4 {
+    flex: 1;
+}
+
+/* -------------------------------------------------------------  ABOUT ME ----------------------------------------------------------- */
+.container1 {
+    height: 10rem;
+    width: 100%;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+}
+
+.wiebenik {
+    height: 5%;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: -5rem;
+
+}
+
+.wiebenik h2 {
+    font-size: 4rem;
+    position: relative;
+    text-align: center;
+    color: #1abc9c;
+
+}
+
+.wiebenik p {
+    font-size: 1.2rem;
+    color: #555;
+    top: -2rem;
+    position: relative;
+
+}
+
+.mijnhobbys {
+    height: 5%;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5%;
+    position: relative;
+    top: -5rem;
+
+}
+
+.mijnhobbys h2 {
+    font-size: 4rem;
+    position: relative;
+    top: 3.9rem;
+    padding-bottom: 2.6rem;
+    color: #1abc9c;
+    text-align: center;
+    left: 0;
+
+}
+
+.mijnhobbys p {
+    font-size: 1.2rem;
+    color: #555;
+    position: relative;
+    top: -0.8rem;
+}
+
+.werk {
+    height: 5%;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 3rem;
+    position: relative;
+    top: -5rem;
+}
+
+.werk h2 {
+    font-size: 4rem;
+    position: relative;
+    top: 2.4rem;
+    padding-bottom: 10%;
+    color: #1abc9c;
+    text-align: center;
+
+}
+
+.werk p {
+    font-size: 1.2rem;
+    color: #555;
+    position: relative;
+    top: -2.3rem;
+}
+
+.overig {
+    height: 5%;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 64%;
+    margin-top: 1%;
+    position: relative;
+    bottom: 100%;
+}
+
+.overig h2 {
+    font-size: 4rem;
+    position: relative;
+    top: 3rem;
+    padding-bottom: 40px;
+    color: #1abc9c;
+    text-align: center;
+    left: 0;
+
+}
+
+.overig p {
+    font-size: 1.2rem;
+    color: #555;
+    position: relative;
+    top: -1rem;
+}
+
+.container1 h1 {
+    text-align: center;
+}
+
+/* --------------------- VAARDIGHEDEN IN DE ABOUTME -------------------------- */
+.vaardigheden {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    top: -2rem;
+    margin-left: 6%;
+
+}
+
+/* --------- EERSTE PERCENTAGEBAR -------------------- */
+.percentagebar1 {
+    height: 1rem;
+    width: 55%;
+    position: relative;
+    background: #555;
+    -moz-border-radius: 2.5%;
+    -webkit-border-radius: 2.5%;
+    border-radius: 25px;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.percentagebar1 > span {
+    width: 80%;
+    display: block;
+    height: 100%;
+    background-color: #1abc9c;
+    border-radius: 20px;
+}
+
+/* --------- TWEEDE PERCENTAGEBAR -------------------- */
+.percentagebar2 {
+    height: 1rem;
+    width: 55%;
+    position: relative;
+    background: #555;
+    -moz-border-radius: 2.5%;
+    -webkit-border-radius: 2.5%;
+    border-radius: 25px;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+    top: 1%;
+
+}
+
+.percentagebar2 > span {
+    width: 99%;
+    display: block;
+    height: 100%;
+    background-color: #1abc9c;
+    border-radius: 20px;
+}
+
+/* --------- DERDE PERCENTAGEBAR -------------------- */
+.percentagebar3 {
+    height: 1rem;
+    width: 55%;
+    position: relative;
+    background: #555;
+    -moz-border-radius: 2.5%;
+    -webkit-border-radius: 2.5%;
+    border-radius: 25px;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+    top: 1%;
+
+}
+
+.percentagebar3 > span {
+    width: 60%;
+    display: block;
+    height: 100%;
+    background-color: #1abc9c;
+    border-radius: 20px;
+}
+
+/* -------------------- EDUCATIE ---------------------- */
+.container2 {
+    height: 40%;
+    width: 100%;
+    display: inline-block;
+}
+
+.container2 > h1 {
+    text-align: center;
+}
+
+.gekozenopleiding {
+    height: 50%;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.gekozenopleiding h2 {
+    font-size: 4rem;
+    position: relative;
+    top: 5%;
+    padding-bottom: 3rem;
+    text-align: center;
+    color: #1abc9c;
+
+}
+
+.gekozenopleiding p {
+    font-size: 1.2rem;
+    color: #555;
+    position: relative;
+    top: -4rem;
+}
+
+.totnutoe {
+    height: 50%;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.totnutoe h2 {
+    font-size: 4rem;
+    position: relative;
+    top: 5%;
+    padding-bottom: 3rem;
+    text-align: center;
+    color: #1abc9c;
+
+}
+
+.totnutoe p {
+    font-size: 1.2rem;
+    color: #555;
+    position: relative;
+    top: -4rem;
+}
+
+/* ------------------------------- TABEL -------------------------- */
+.Tabel {
+    margin-left: 3%;
+    margin-right: 3%;
+    display: inline-block;
+    width: 93%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    color: #333;
+    background-color: transparent;
+    text-align: center;
+
+}
+
+td {
+    border: 1px solid black;
+    height: 50px;
+
+}
+
+th {
+    height: 50px;
+    background-color: #1abc9c;
+    color: white;
+
+}
+
+/* -------------------- GALLERIJ -------------------- */
+.gallerij {
+    margin: 2.2%;
+    border: 1px solid #ccc;
+    width: auto;
+    max-height: 100%;
+    background-color: white;
+    color: #777777;
+    padding: 1%;
+    display: inline-block;
+    position: relative;
+
+}
+
+.gallerij:hover {
+    border: 1px solid #777777;
+}
+
+.gallerij img {
+    max-height: 80%;
+    max-width: 400px;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.6;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: 1s ease;
+}
+.gallerij:hover .overlay {
+    width: 100%;
+}
+
+.imgtekst {
+    white-space: nowrap;
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.imgtekst i{
+    color: white;
+}
+/* -------------------- CONTACT -------------------- */
+.contact {
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 4%;
+    border-radius: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
+}
+
+.contact h1 {
+    padding-left: 1.5%;
+    margin-bottom: 5%;
+    width: 100%;
+    color: #333333;
+}
+
+.contact fieldset {
+    border: none;
+}
+
+.contact legend {
+    font-size: 1.4em;
+    margin-bottom: 1%;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 0.8%;
+
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact input[type="number"],
+.contact textarea {
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    margin-bottom: 1rem;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.contact input[type="text"]:focus,
+.contact input[type="email"]:focus,
+.contact input[type="number"]:focus,
+.contact textarea:focus {
+    background: #d2d9dd;
+}
+
+.contact .number {
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 4px;
+    line-height: 200%;
+    text-align: center;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.contact input[type="submit"],
+.contact input[type="button"] {
+    position: relative;
+    display: block;
+    padding: 2% 2% 2% 2%;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 50%;
+    border: #16a085;
+    border-radius: 20px;
+}
+
+.contact input[type="submit"]:hover,
+.contact input[type="button"]:hover {
+    background: #109177;
+}
+
+/*---------------------------------------------------------------------- SUCCESVOL ------------------------------------ */
+.succesInhoud {
+    height: 40%;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    top: 4%;
+    bottom: 40%;
+    margin: 0 auto;
+}
+
+.succesInhoud h1 {
+    font-size: 2rem;
+    position: relative;
+    top: 1.9rem;
+    padding-bottom: 10%;
+    color: #333333;
+    text-align: center;
+    left: 0;
+
+}
+
+.succesInhoud h2 {
+    position: relative;
+    top: -1.3rem;
+    color: #333;
+}
+
+.succesInhoud p {
+    font-size: 1.2rem;
+    color: #555;
+    padding-bottom: 10%;
+}
+
+.succesInhoud img {
+    border-radius: 20%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 2rem;
+}
